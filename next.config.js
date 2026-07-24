@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const isProd = process.env.NODE_ENV === "production";
+
+module.exports = {
   output: "export",
 
-  ...(process.env.NODE_ENV === "production" && {
+  ...(isProd && {
     basePath: "/namoh",
     assetPrefix: "/namoh",
   }),
@@ -15,5 +17,3 @@ const nextConfig = {
     ],
   },
 };
-
-module.exports = nextConfig;

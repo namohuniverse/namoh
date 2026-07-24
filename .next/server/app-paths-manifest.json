@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/astrology/page": "app/astrology/page.js",
+  "/booking/page": "app/booking/page.js",
+  "/pooja/page": "app/pooja/page.js",
+  "/page": "app/page.js",
+  "/pandit-login/page": "app/pandit-login/page.js",
+  "/pooja/[id]/page": "app/pooja/[id]/page.js"
+}

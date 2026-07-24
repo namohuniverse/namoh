@@ -2,6 +2,11 @@
 const nextConfig = {
   output: "export",
 
+  ...(process.env.NODE_ENV === "production" && {
+    basePath: "/namoh",
+    assetPrefix: "/namoh",
+  }),
+
   images: {
     unoptimized: true,
     remotePatterns: [
@@ -9,9 +14,6 @@ const nextConfig = {
       { protocol: "https", hostname: "picsum.photos" },
     ],
   },
-
-  basePath: "/namoh",
-  assetPrefix: "/namoh/",
 };
 
 module.exports = nextConfig;

@@ -1,15 +1,77 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-f86ea44ff730ee46.js",
+      "static/chunks/fd9d1056-95542c12c8153870.js",
+      "static/chunks/23-5761d438dd15b549.js",
+      "static/chunks/main-app-ac29960be95212c5.js",
+      "static/chunks/app/_not-found/page-85e0197de3d349ed.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-f86ea44ff730ee46.js",
+      "static/chunks/fd9d1056-95542c12c8153870.js",
+      "static/chunks/23-5761d438dd15b549.js",
+      "static/chunks/main-app-ac29960be95212c5.js",
+      "static/css/f96dfbe535123d12.css",
+      "static/chunks/231-674aff0b0d408ea7.js",
+      "static/chunks/173-579d65c789537b41.js",
+      "static/chunks/821-92b7fc248fde751d.js",
+      "static/chunks/app/layout-bde883d4c5736744.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-f86ea44ff730ee46.js",
+      "static/chunks/fd9d1056-95542c12c8153870.js",
+      "static/chunks/23-5761d438dd15b549.js",
+      "static/chunks/main-app-ac29960be95212c5.js",
+      "static/chunks/231-674aff0b0d408ea7.js",
+      "static/chunks/173-579d65c789537b41.js",
+      "static/chunks/app/page-4f90c17b6d361a7a.js"
+    ],
+    "/booking/page": [
+      "static/chunks/webpack-f86ea44ff730ee46.js",
+      "static/chunks/fd9d1056-95542c12c8153870.js",
+      "static/chunks/23-5761d438dd15b549.js",
+      "static/chunks/main-app-ac29960be95212c5.js",
+      "static/chunks/231-674aff0b0d408ea7.js",
+      "static/chunks/173-579d65c789537b41.js",
+      "static/chunks/821-92b7fc248fde751d.js",
+      "static/chunks/app/booking/page-2236d773b6ec8d44.js"
+    ],
+    "/pooja/page": [
+      "static/chunks/webpack-f86ea44ff730ee46.js",
+      "static/chunks/fd9d1056-95542c12c8153870.js",
+      "static/chunks/23-5761d438dd15b549.js",
+      "static/chunks/main-app-ac29960be95212c5.js",
+      "static/chunks/231-674aff0b0d408ea7.js",
+      "static/chunks/173-579d65c789537b41.js",
+      "static/chunks/app/pooja/page-1be9d3a53ca805bf.js"
+    ],
+    "/pandit-login/page": [
+      "static/chunks/webpack-f86ea44ff730ee46.js",
+      "static/chunks/fd9d1056-95542c12c8153870.js",
+      "static/chunks/23-5761d438dd15b549.js",
+      "static/chunks/main-app-ac29960be95212c5.js",
+      "static/chunks/231-674aff0b0d408ea7.js",
+      "static/chunks/app/pandit-login/page-156c5a30fc171a8a.js"
+    ],
+    "/astrology/page": [
+      "static/chunks/webpack-f86ea44ff730ee46.js",
+      "static/chunks/fd9d1056-95542c12c8153870.js",
+      "static/chunks/23-5761d438dd15b549.js",
+      "static/chunks/main-app-ac29960be95212c5.js",
+      "static/chunks/231-674aff0b0d408ea7.js",
+      "static/chunks/173-579d65c789537b41.js",
+      "static/chunks/821-92b7fc248fde751d.js",
+      "static/chunks/app/astrology/page-b11ee4c1321db0e3.js"
+    ],
+    "/pooja/[id]/page": [
+      "static/chunks/webpack-f86ea44ff730ee46.js",
+      "static/chunks/fd9d1056-95542c12c8153870.js",
+      "static/chunks/23-5761d438dd15b549.js",
+      "static/chunks/main-app-ac29960be95212c5.js",
+      "static/chunks/231-674aff0b0d408ea7.js",
+      "static/chunks/173-579d65c789537b41.js",
+      "static/chunks/app/pooja/[id]/page-3cea8a82c31d2ced.js"
     ]
   }
 }

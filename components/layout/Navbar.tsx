@@ -196,7 +196,7 @@ export default function Navbar() {
               className="flex items-center justify-center gap-1.5 text-center text-xs font-medium text-white/50 transition-colors hover:text-white/80"
             >
               <PersonIcon className="h-4 w-4" />
-              Pandit Login
+              Pandit Login 
             </Link>
           </div>
         </div>

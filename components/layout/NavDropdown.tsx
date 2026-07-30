@@ -30,7 +30,7 @@ export default function NavDropdown({ link, active = false }: NavDropdownProps) 
     return (
       <Link
         href={link.href}
-        className={`relative pb-1.5 text-sm font-medium transition-colors hover:text-gold ${
+        className={`relative inline-flex items-center pb-1.5 text-sm font-medium transition-colors hover:text-gold ${
           active ? 'text-gold' : 'text-white/80'
         }`}
       >

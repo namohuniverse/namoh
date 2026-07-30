@@ -61,14 +61,14 @@ export default function Hero() {
             </Button>
           </div>
 
-          <div className="animate-fade-in-up mt-10 flex items-center gap-6 rounded-card border border-gold/15 bg-black/20 px-6 py-5 sm:gap-10 sm:px-10">
+          <div className="animate-fade-in-up mt-10 grid grid-cols-2 gap-x-4 gap-y-6 rounded-card border border-gold/15 bg-black/20 px-6 py-5 sm:flex sm:items-center sm:gap-10 sm:px-10">
             {stats.map((stat, index) => (
-              <div key={stat.label} className="flex items-center gap-6 sm:gap-10">
-                {index > 0 && <div className="h-9 w-px bg-gold/15" aria-hidden="true" />}
+              <div key={stat.label} className="flex items-center justify-center gap-6 sm:gap-10">
+                {index > 0 && <div className="hidden h-9 w-px bg-gold/15 sm:block" aria-hidden="true" />}
                 <div className="flex flex-col items-center gap-1.5">
                   <stat.icon className="h-5 w-5 text-gold" />
                   <p className="font-heading text-xl font-semibold text-white sm:text-2xl">{stat.value}</p>
-                  <p className="whitespace-nowrap text-[11px] text-white/50">{stat.label}</p>
+                  <p className="text-center text-[11px] text-white/50 sm:whitespace-nowrap">{stat.label}</p>
                 </div>
               </div>
             ))}

@@ -34,6 +34,7 @@ export default function Navbar() {
   };
 
   return (
+    <>
     <header className="sticky top-0 z-50 border-b border-gold/10 bg-bg/90 backdrop-blur-md">
       <Container>
         <nav className="flex h-18 items-center justify-between" aria-label="Primary">
@@ -91,10 +92,11 @@ export default function Navbar() {
           </button>
         </nav>
       </Container>
+    </header>
 
       {/* Mobile slide-out drawer */}
       <div
-        className={`fixed inset-0 z-40 lg:hidden ${isMenuOpen ? '' : 'pointer-events-none'}`}
+        className={`fixed inset-0 z-40 overflow-hidden lg:hidden ${isMenuOpen ? '' : 'pointer-events-none'}`}
         aria-hidden={!isMenuOpen}
       >
         <div
@@ -199,6 +201,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-    </header>
+    </>
   );
 }
